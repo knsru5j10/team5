@@ -1,17 +1,10 @@
 #Greenfoot project file
 class.MyWorld.image=\u80CC\u666F.jpg
 class.\u30B8\u30E7\u30CB\u30FC.image=\u30B8\u30E7\u30CB\u30FC.jpg
-<<<<<<< HEAD
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
 editor.fx.0.y=0
-=======
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=189
-editor.fx.0.y=92
->>>>>>> ed3a2c8e1dfb4bfbf0328e44a1bb725a481036c2
 height=723
 package.numDependencies=0
 package.numTargets=3
