@@ -12,8 +12,12 @@ public class ひろし extends Actor
      * Act - do whatever the ひろし wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public ひろし(){
+        getImage().scale(80,130);
+    }
     public void act() 
     {
+        
         // Add your action code here.
         if( Greenfoot.isKeyDown( "d" ) )
         {
