@@ -1,36 +1,36 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class ジョニー here.
+ * Write a description of class ひろし here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class ジョニー extends Actor
+public class ひろし extends Actor
 {
     /**
-     * Act - do whatever the ジョニー wants to do. This method is called whenever
+     * Act - do whatever the ひろし wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
         // Add your action code here.
-        if( Greenfoot.isKeyDown( "right" ) )
+        if( Greenfoot.isKeyDown( "d" ) )
         {
             setRotation(0);
             move(4);
         }
-        if( Greenfoot.isKeyDown( "left" ) )
+        if( Greenfoot.isKeyDown( "a" ) )
         {
             setRotation(0);
             move(-4);
         }
-        if( Greenfoot.isKeyDown( "up" ) )
+        if( Greenfoot.isKeyDown( "w" ) )
         {
             setRotation(270);
             move(4);
         }
-        if( Greenfoot.isKeyDown( "down" ) )
+        if( Greenfoot.isKeyDown( "s" ) )
         {
             setRotation(90);
             move(4);
