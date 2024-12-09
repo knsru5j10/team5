@@ -17,6 +17,10 @@ public class Hiroshi extends Actor
     }
     public void act() 
     {
+<<<<<<< HEAD:game5/ひろし.java
+           // Add your action code here.
+        if( Greenfoot.isKeyDown( "d" ) )
+=======
         int x = getX();
         int y = getY();
         int move = 4;
@@ -34,6 +38,7 @@ public class Hiroshi extends Actor
         }
         // Add your action code here.
         /*if( Greenfoot.isKeyDown( "d" ) )
+>>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9:game5/Hiroshi.java
         {
             setRotation(0);
             move(4);
@@ -52,6 +57,12 @@ public class Hiroshi extends Actor
         {
             setRotation(90);
             move(4);
+<<<<<<< HEAD:game5/ひろし.java
+        }
+        // Add your action code here.   
+    }
+=======
         }*/
     }    
+>>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9:game5/Hiroshi.java
 }
