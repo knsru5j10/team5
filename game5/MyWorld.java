@@ -10,6 +10,7 @@ public class MyWorld extends World
 {
 
     public int timecount = 3000;
+    int count = 0;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -25,12 +26,62 @@ public class MyWorld extends World
     }
     public void act(){
         timecount--;
+        count++;
         showText(""+timecount, 540, 50 );
         
         if(timecount==0)
         {
             showText( "TIME OVER", 400, 200 );
             Greenfoot.stop();
+        }
+        if(count == 50){
+            count = 0;
+            int Q = 1;
+            int W = 7;
+            
+            int A = 0;
+            int B = 1080;
+            int x = A + (int)(Math.random()*((B-A)+1));
+        
+            A = 0;
+            B = 538;
+            int y = A + (int)(Math.random()*((B-A)+1));
+            switch(Q + (int)(Math.random()*((W-Q)+1))){
+                case 1:
+                
+                    addObject( new Hikiniku(), x, y );
+                    break;
+                    
+                case 2:
+                    
+                    addObject( new Kawa(), x, y );
+                    break;
+                
+                case 3:
+                    
+                    addObject( new Men(), x, y );
+                    break;
+                    
+                case 4:
+                    
+                    addObject( new Negi(), x, y );
+                    break;
+                    
+                case 5:
+                
+                    addObject( new Tamago(), x, y );
+                    break;
+                    
+                case 6:
+                
+                    addObject( new Toufu(), x, y );
+                    break;
+                    
+                case 7:
+                
+                    addObject( new banana_kawa(), x, y );
+                    break;
+            }
         }
     }
 }
