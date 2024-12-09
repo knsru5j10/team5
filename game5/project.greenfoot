@@ -1,56 +1,29 @@
 #Greenfoot project file
-<<<<<<< HEAD
+class.Hikiniku.image=\u3072\u304D\u8089-removebg-preview.png
 class.Hiroshi.image=\u3072\u308D\u3057.png
 class.Jyoni.image=Image-removebg-preview-removebg-preview.png
-class.MyWorld.image=\u80CC\u666F.jpg
-<<<<<<< HEAD
-class.banana_kawa.image=banana_kawa-removebg-preview.png
-=======
-=======
-class.Hikiniku.image=\u3072\u304D\u8089-removebg-preview.png
 class.Kawa.image=\u9903\u5B50\u306E\u76AE-removebg-preview.png
 class.Men.image=\u9EBA-removebg-preview.png
 class.MyWorld.image=\u80CC\u666F.jpg
 class.Negi.image=negi_green_onion-removebg-preview.png
 class.Tamago.image=\u5375-removebg-preview.png
 class.Toufu.image=\u8C46\u8150-removebg-preview\ (1).png
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
+class.banana_kawa.image=banana_kawa-removebg-preview.png
 class.\u3072\u308D\u3057.image=\u3072\u308D\u3057.png
 class.\u30B8\u30E7\u30CB\u30FC.image=Image-removebg-preview-removebg-preview.png
->>>>>>> a0387526b8d44af4bf60d1b8536eb55dd5e38b23
 dependency1.from=MyWorld
 dependency1.to=Hiroshi
 dependency1.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=905
-editor.fx.0.width=816
-editor.fx.0.x=413
-editor.fx.0.y=130
-height=823
-package.numDependencies=1
-package.numTargets=3
-=======
 dependency2.from=MyWorld
-dependency2.to=\u30B8\u30E7\u30CB\u30FC
+dependency2.to=Jyoni
 dependency2.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=905
-editor.fx.0.width=816
-editor.fx.0.x=373
-editor.fx.0.y=111
-height=1056
-package.numDependencies=2
-package.numTargets=4
-=======
 editor.fx.0.height=1006
 editor.fx.0.width=989
 editor.fx.0.x=885
 editor.fx.0.y=16
 height=823
 package.numDependencies=2
-package.numTargets=9
->>>>>>> a0387526b8d44af4bf60d1b8536eb55dd5e38b23
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
+package.numTargets=12
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -66,106 +39,91 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
-<<<<<<< HEAD
 target1.name=banana_kawa
-=======
-<<<<<<< HEAD
-target1.name=Jyoni
-=======
-target1.name=Hikiniku
->>>>>>> a0387526b8d44af4bf60d1b8536eb55dd5e38b23
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=90
 target1.x=0
 target1.y=0
+target10.height=50
+target10.name=Negi
+target10.showInterface=false
+target10.type=ClassTarget
+target10.width=80
+target10.x=0
+target10.y=0
+target11.height=50
+target11.name=Hiroshi
+target11.showInterface=false
+target11.type=ClassTarget
+target11.width=80
+target11.x=0
+target11.y=0
+target12.height=50
+target12.name=MyWorld
+target12.showInterface=false
+target12.type=ClassTarget
+target12.width=80
+target12.x=0
+target12.y=0
 target2.height=50
-<<<<<<< HEAD
-target2.name=\u30B8\u30E7\u30CB\u30FC
-=======
-<<<<<<< HEAD
-target2.name=MyWorld
-=======
-target2.name=\u30B8\u30E7\u30CB\u30FC
->>>>>>> a0387526b8d44af4bf60d1b8536eb55dd5e38b23
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
+target2.name=Kawa
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=80
 target2.x=0
 target2.y=0
 target3.height=50
-<<<<<<< HEAD
-target3.name=\u3072\u308D\u3057
-=======
-<<<<<<< HEAD
-target3.name=Hiroshi
-=======
-target3.name=Kawa
->>>>>>> a0387526b8d44af4bf60d1b8536eb55dd5e38b23
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
+target3.name=\u30B8\u30E7\u30CB\u30FC
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-<<<<<<< HEAD
-target4.name=MyWorld
-=======
 target4.name=\u3072\u308D\u3057
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
 target4.x=0
 target4.y=0
-<<<<<<< HEAD
-=======
 target5.height=50
-target5.name=Men
+target5.name=Tamago
 target5.showInterface=false
 target5.type=ClassTarget
 target5.width=80
 target5.x=0
 target5.y=0
 target6.height=50
-target6.name=Tamago
+target6.name=Hikiniku
 target6.showInterface=false
 target6.type=ClassTarget
-target6.width=80
+target6.width=90
 target6.x=0
 target6.y=0
 target7.height=50
-target7.name=Toufu
+target7.name=Jyoni
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=80
 target7.x=0
 target7.y=0
 target8.height=50
-target8.name=Negi
+target8.name=Men
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
 target8.x=0
 target8.y=0
 target9.height=50
-target9.name=MyWorld
+target9.name=Toufu
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
 target9.x=0
 target9.y=0
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
 version=3.0.0
 width=1936
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
 xPosition=0
-yPosition=0
-=======
-xPosition=253
-yPosition=146
->>>>>>> 9c4d40ea5564e1330095bb5d818fd763e5cb32e9
+yPosition=85
