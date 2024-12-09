@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class MyWorld extends World
 {
 
+    public int timecount = 3000;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -21,5 +22,15 @@ public class MyWorld extends World
         
         addObject( new Hiroshi(), 40, 450 );
         addObject( new Jyoni(), 1000, 450 );
+    }
+    public void act(){
+        timecount--;
+        showText(""+timecount, 540, 50 );
+        
+        if(timecount==0)
+        {
+            showText( "TIME OVER", 400, 200 );
+            Greenfoot.stop();
+        }
     }
 }
