@@ -32,27 +32,6 @@ public class Hiroshi extends Actor
         if( Greenfoot.isKeyDown( "s" ) ){
             setLocation( x,y+move );
         }
-        if( Greenfoot.isKeyDown( "d" ) )
-        {
-            setRotation(0);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "a" ) )
-        {
-            setRotation(0);
-            move(-4);
-        }
-        if( Greenfoot.isKeyDown( "w" ) )
-        {
-            setRotation(270);
-            move(4);
-        }
-        if( Greenfoot.isKeyDown( "s" ) )
-        {
-            setRotation(90);
-            move(4);
-
-        }
         // Add your action code here.   
     }
 }
