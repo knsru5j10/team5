@@ -11,6 +11,7 @@ public class MyWorld extends World
 
     public int timecount = 3000;
     int count = 0;
+    int pad = 100;
     /**
      * Constructor for objects of class MyWorld.
      * 
@@ -23,6 +24,57 @@ public class MyWorld extends World
         
         addObject( new Hiroshi(), 40, 450 );
         addObject( new Jyoni(), 1000, 450 );
+        
+        for(int i=0;i<15;i++)
+        {
+            count = 0;
+            int Q = 1;
+            int W = 7;
+            
+            int A = 0+pad;
+            int B =1080-pad;
+            int x = A + (int)(Math.random()*((B-A)+1));
+        
+            A = 0+pad;
+            B = 538-pad;
+            int y = A + (int)(Math.random()*((B-A)+1));
+            switch(Q + (int)(Math.random()*((W-Q)+1))){
+                case 1:
+                
+                    addObject( new Hikiniku(), x, y );
+                    break;
+                    
+                case 2:
+                    
+                    addObject( new Kawa(), x, y );
+                    break;
+                
+                case 3:
+                    
+                    addObject( new Men(), x, y );
+                    break;
+                    
+                case 4:
+                    
+                    addObject( new Negi(), x, y );
+                    break;
+                    
+                case 5:
+                
+                    addObject( new Tamago(), x, y );
+                    break;
+                    
+                case 6:
+                
+                    addObject( new Toufu(), x, y );
+                    break;
+                    
+                case 7:
+                
+                    addObject( new banana_kawa(), x, y );
+                    break;
+            }
+        }
     }
     public void act(){
         timecount--;
@@ -34,17 +86,17 @@ public class MyWorld extends World
             showText( "TIME OVER", 400, 200 );
             Greenfoot.stop();
         }
-        if(count == 50){
+        if(count == 300){
             count = 0;
             int Q = 1;
             int W = 7;
             
-            int A = 0;
-            int B = 1080;
+            int A = 0+pad;
+            int B = 1080-pad;
             int x = A + (int)(Math.random()*((B-A)+1));
         
-            A = 0;
-            B = 538;
+            A = 0+pad;
+            B = 538-pad;
             int y = A + (int)(Math.random()*((B-A)+1));
             switch(Q + (int)(Math.random()*((W-Q)+1))){
                 case 1:
