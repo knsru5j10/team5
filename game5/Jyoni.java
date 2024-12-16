@@ -12,8 +12,16 @@ public class Jyoni extends Actor
      * Act - do whatever the Jyoni wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    int hey;
+    public void set_hey(int a){
+        hey = a;
+    }
+    public int gethey()
+    {
+        return this.hey;
+    }
     public Jyoni(){
-        getImage().scale(80,130);
+        getImage().scale(50,81);//8:13
     }
     public void act() 
     {

@@ -12,8 +12,19 @@ public class Hiroshi extends Actor
      * Act - do whatever the ひろし wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    
+    
+    int a = 0;
+    int b = 9;
+    int c = a + (int)(Math.random()*((b-a)+1));
+    
+    public int getc()
+    {
+        return this.c;
+    }
+    
     public Hiroshi(){
-        getImage().scale(80,130);
+        getImage().scale(50,81);
     }
     public void act() 
     {
