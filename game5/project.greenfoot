@@ -38,17 +38,10 @@ dependency9.to=banana_kawa
 dependency9.type=UsesDependency
 editor.fx.0.height=1006
 editor.fx.0.width=989
-<<<<<<< HEAD
-editor.fx.0.x=442
-editor.fx.0.y=61
-height=705
-package.numDependencies=9
-=======
-editor.fx.0.x=762
-editor.fx.0.y=277
+editor.fx.0.x=839
+editor.fx.0.y=88
 height=777
-package.numDependencies=2
->>>>>>> 7dfe4eec36bddfe7bd257a7043df687b69fe3983
+package.numDependencies=9
 package.numTargets=10
 project.charset=UTF-8
 publish.hasSource=false
@@ -137,10 +130,5 @@ target9.y=0
 version=3.0.0
 width=1311
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=493
-yPosition=251
-=======
 xPosition=0
 yPosition=149
->>>>>>> 7dfe4eec36bddfe7bd257a7043df687b69fe3983
