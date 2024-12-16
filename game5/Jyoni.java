@@ -13,7 +13,7 @@ public class Jyoni extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public Jyoni(){
-        getImage().scale(80,130);
+        getImage().scale(50,81);//8:13
     }
     public void act() 
     {
