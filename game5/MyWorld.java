@@ -41,14 +41,14 @@ public class MyWorld extends World
         {
             count = 0;
             int Q = 1;
-            int W = 7;
+            int W = 9;
             
             int A = 0+pad;
             int B =1080-pad;
             int x = A + (int)(Math.random()*((B-A)+1));
         
-            A = 0+pad;
-            B = 538-pad;
+            A = 0+pad+100;
+            B = 538-pad+90;
             int y = A + (int)(Math.random()*((B-A)+1));
             switch(Q + (int)(Math.random()*((W-Q)+1))){
                 case 1:
@@ -85,6 +85,12 @@ public class MyWorld extends World
                 
                     addObject( new banana_kawa(), x, y );
                     break;
+                case 8:
+                    addObject( new Miso(), x, y );
+                    break;
+                case 9:
+                    addObject( new Kinki(), x, y );
+                    break;
             }
         }
     }
@@ -92,52 +98,68 @@ public class MyWorld extends World
         timecount--;
         count++;
         showText(""+timecount, 540, 50 );
-        showText(""+ menu2.gethey(), 500, 200 );
+        //showText(""+ menu2.gethey(), 500, 200 );
+        
+        
         
         switch(menu.getc()){
+                case 0:
+                    showText("麻婆豆腐", 200, 50 );
+                    showText("麻婆豆腐", 880, 50 );
+                    break;
+                
                 case 1:
                 
-                    showText("ラーメン", 200, 200 );
+                    showText("油そば", 200, 50 );
+                    showText("油そば", 880, 50 );
                     break;
                     
                 case 2:
                     
-                    showText("ラーメン", 200, 200 );
+                    showText("プリン", 200, 50 );
+                    showText("プリン", 880, 50 );
                     break;
                 
                 case 3:
                     
-                    showText("ラーメン", 200, 200 );
+                    showText("きんきラーメン", 200, 50 );
+                    showText("きんきラーメン", 880, 50 );
                     break;
                     
                 case 4:
                     
-                    showText("ラーメン", 200, 200 );
+                    showText("味噌ラーメン", 200, 50 );
+                    showText("味噌ラーメン", 880, 50 );
                     break;
                     
                 case 5:
                 
-                    showText("ラーメン", 200, 200 );
+                    showText("あんかけ焼きそば", 200, 50 );
+                    showText("あんかけ焼きそば", 880, 50 );
                     break;
                     
                 case 6:
                 
-                    showText("ラーメン", 200, 200 );
+                    showText("小籠包", 200, 50 );
+                    showText("小籠包", 880, 50 );
                     break;
                     
                 case 7:
                 
-                    showText("ラーメン", 200, 200 );
+                    showText("天津飯", 200, 50 );
+                    showText("天津飯", 880, 50 );
                     break;
                 
                 case 8:
                 
-                    showText("ラーメン", 200, 200 );
+                    showText("チャーハン", 200, 50 );
+                    showText("チャーハン", 880, 50 );
                     break;
                     
                 case 9:
                 
-                    showText("ラーメン", 200, 200 );
+                    showText("餃子", 200, 50 );
+                    showText("餃子", 880, 50 );
                     break;
         }
         
@@ -155,8 +177,8 @@ public class MyWorld extends World
             int B = 1080-pad;
             int x = A + (int)(Math.random()*((B-A)+1));
         
-            A = 0+pad;
-            B = 538-pad;
+            A = 0+pad+100;
+            B = 538-pad+90;
             int y = A + (int)(Math.random()*((B-A)+1));
             switch(Q + (int)(Math.random()*((W-Q)+1))){
                 case 1:
@@ -192,6 +214,16 @@ public class MyWorld extends World
                 case 7:
                 
                     addObject( new banana_kawa(), x, y );
+                    break;
+                    
+                case 8:
+                
+                    addObject( new Miso(), x, y );
+                    break;
+                    
+                case 9:
+                
+                    addObject( new Kinki(), x, y );
                     break;
             }
         }
