@@ -8,14 +8,19 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-
     public int timecount = 3000;
     int count = 0;
     int pad = 100;
+    public Hiroshi menu =new Hiroshi();
+    public Jyoni menu2 =new Jyoni();
     /**
      * Constructor for objects of class MyWorld.
      * 
      */
+    //int a=menu.getc();
+    
+    
+    
     public MyWorld()
     {    
         
@@ -24,6 +29,13 @@ public class MyWorld extends World
         
         addObject( new Hiroshi(), 40, 450 );
         addObject( new Jyoni(), 1000, 450 );
+        
+        menu2.set_hey(menu.getc());
+        
+        
+        
+        //System.out.println(menu.getc());
+        
         
         for(int i=0;i<15;i++)
         {
@@ -80,6 +92,54 @@ public class MyWorld extends World
         timecount--;
         count++;
         showText(""+timecount, 540, 50 );
+        showText(""+ menu2.gethey(), 500, 200 );
+        
+        switch(menu.getc()){
+                case 1:
+                
+                    showText("ラーメン", 200, 200 );
+                    break;
+                    
+                case 2:
+                    
+                    showText("ラーメン", 200, 200 );
+                    break;
+                
+                case 3:
+                    
+                    showText("ラーメン", 200, 200 );
+                    break;
+                    
+                case 4:
+                    
+                    showText("ラーメン", 200, 200 );
+                    break;
+                    
+                case 5:
+                
+                    showText("ラーメン", 200, 200 );
+                    break;
+                    
+                case 6:
+                
+                    showText("ラーメン", 200, 200 );
+                    break;
+                    
+                case 7:
+                
+                    showText("ラーメン", 200, 200 );
+                    break;
+                
+                case 8:
+                
+                    showText("ラーメン", 200, 200 );
+                    break;
+                    
+                case 9:
+                
+                    showText("ラーメン", 200, 200 );
+                    break;
+        }
         
         if(timecount==0)
         {
