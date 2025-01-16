@@ -41,7 +41,7 @@ public class MyWorld extends World
         {
             count = 0;
             int Q = 1;
-            int W = 7;
+            int W = 9;
             
             int A = 0+pad;
             int B =1080-pad;
@@ -85,6 +85,12 @@ public class MyWorld extends World
                 
                     addObject( new banana_kawa(), x, y );
                     break;
+                case 8:
+                    addObject( new Miso(), x, y );
+                    break;
+                case 9:
+                    addObject( new Kinki(), x, y );
+                    break;
             }
         }
     }
@@ -122,8 +128,8 @@ public class MyWorld extends World
                     
                 case 4:
                     
-                    showText("ホルモンラーメン", 200, 50 );
-                    showText("ホルモンラーメン", 880, 50 );
+                    showText("味噌ラーメン", 200, 50 );
+                    showText("味噌ラーメン", 880, 50 );
                     break;
                     
                 case 5:
@@ -208,6 +214,16 @@ public class MyWorld extends World
                 case 7:
                 
                     addObject( new banana_kawa(), x, y );
+                    break;
+                    
+                case 8:
+                
+                    addObject( new Miso(), x, y );
+                    break;
+                    
+                case 9:
+                
+                    addObject( new Kinki(), x, y );
                     break;
             }
         }
