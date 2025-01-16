@@ -104,63 +104,41 @@ public class MyWorld extends World
         
         switch(menu.getc()){
                 case 0:
-                    showText("麻婆豆腐", 200, 50 );
-                    showText("麻婆豆腐", 880, 50 );
+                    showText("麻婆豆腐　　油そば　　プリン", 200, 50 );
+                    showText("麻婆豆腐　　油そば　　プリン", 880, 50 );
                     break;
                 
                 case 1:
                 
-                    showText("油そば", 200, 50 );
-                    showText("油そば", 880, 50 );
+                    showText("油そば  きんきラーメン　　味噌ラーメン", 200, 50 );
+                    showText("油そば  きんきラーメン　　味噌ラーメン", 880, 50 );
                     break;
                     
                 case 2:
                     
-                    showText("プリン", 200, 50 );
-                    showText("プリン", 880, 50 );
+                    showText("プリン　　きんきラーメン　　あんかけ焼きそば", 200, 50 );
+                    showText("プリン　　きんきラーメン　　あんかけ焼きそば", 880, 50 );
                     break;
                 
                 case 3:
                     
-                    showText("きんきラーメン", 200, 50 );
-                    showText("きんきラーメン", 880, 50 );
+                    showText("小籠包　　麻婆豆腐　　チャーハン", 200, 50 );
+                    showText("小籠包　　麻婆豆腐　　チャーハン", 880, 50 );
                     break;
                     
                 case 4:
                     
-                    showText("味噌ラーメン", 200, 50 );
-                    showText("味噌ラーメン", 880, 50 );
+                    showText("味噌ラーメン　　天津飯　　餃子", 200, 50 );
+                    showText("味噌ラーメン　　天津飯　　餃子", 880, 50 );
                     break;
                     
                 case 5:
                 
-                    showText("あんかけ焼きそば", 200, 50 );
-                    showText("あんかけ焼きそば", 880, 50 );
+                    showText("あんかけ焼きそば　　小籠包　　チャーハン", 200, 50 );
+                    showText("あんかけ焼きそば　　小籠包　　チャーハン", 880, 50 );
                     break;
                     
-                case 6:
                 
-                    showText("小籠包", 200, 50 );
-                    showText("小籠包", 880, 50 );
-                    break;
-                    
-                case 7:
-                
-                    showText("天津飯", 200, 50 );
-                    showText("天津飯", 880, 50 );
-                    break;
-                
-                case 8:
-                
-                    showText("チャーハン", 200, 50 );
-                    showText("チャーハン", 880, 50 );
-                    break;
-                    
-                case 9:
-                
-                    showText("餃子", 200, 50 );
-                    showText("餃子", 880, 50 );
-                    break;
         }
         
         if(timecount==0)
