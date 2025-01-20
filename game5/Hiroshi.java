@@ -45,5 +45,6 @@ public class Hiroshi extends Actor
         }
         
         // Add your action code here.   
+        
     }
 }

@@ -20,6 +20,9 @@ dependency10.type=UsesDependency
 dependency11.from=MyWorld
 dependency11.to=Kinki
 dependency11.type=UsesDependency
+dependency12.from=Jyoni
+dependency12.to=banana_kawa
+dependency12.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=Jyoni
 dependency2.type=UsesDependency
@@ -46,15 +49,10 @@ dependency9.to=banana_kawa
 dependency9.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-<<<<<<< HEAD
-editor.fx.0.x=552
-editor.fx.0.y=100
-=======
-editor.fx.0.x=505
-editor.fx.0.y=172
->>>>>>> 3d8a15344865139ca5a942b65c4843d7b6aff339
+editor.fx.0.x=1054
+editor.fx.0.y=240
 height=804
-package.numDependencies=11
+package.numDependencies=12
 package.numTargets=12
 project.charset=UTF-8
 publish.hasSource=false
@@ -157,10 +155,5 @@ target9.y=0
 version=3.0.0
 width=1347
 world.lastInstantiated=MyWorld
-<<<<<<< HEAD
-xPosition=315
-yPosition=228
-=======
-xPosition=230
-yPosition=59
->>>>>>> 3d8a15344865139ca5a942b65c4843d7b6aff339
+xPosition=340
+yPosition=126
