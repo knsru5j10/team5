@@ -44,5 +44,6 @@ public class Hiroshi extends Actor
             setLocation( x,y+move );
         }
         // Add your action code here.   
+        
     }
 }
