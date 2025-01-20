@@ -15,7 +15,7 @@ public class Hiroshi extends Actor
     
     
     int a = 0;
-    int b = 9;
+    int b = 5;
     int c = a + (int)(Math.random()*((b-a)+1));
     
     public int getc()
