@@ -109,6 +109,7 @@ public class Hiroshi extends Actor
         if( Greenfoot.isKeyDown( "s" ) ){
             setLocation( x,y+move );
         }
+<<<<<<< HEAD
         switch(c){
                 case 0:
                     niku=2;
@@ -166,6 +167,9 @@ public class Hiroshi extends Actor
         }
         
         
+=======
+>>>>>>> 2e6f0fbc56b674a1c489b39f5e8b5655c79c5f9f
         // Add your action code here.   
+        
     }
 }
