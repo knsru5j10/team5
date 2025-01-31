@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class MyWorld extends World
 {
-    public int timecount = 3000;
+    public int timecount = 10000;
     int count = 0;
     int pad = 100;
     public Hiroshi menu =new Hiroshi();
@@ -97,7 +97,7 @@ public class MyWorld extends World
     public void act(){
         timecount--;
         count++;
-        showText(""+timecount, 540, 50 );
+        showText(""+timecount, 100, 50 );
         //showText(""+ menu2.gethey(), 500, 200 );
         
         
@@ -146,7 +146,7 @@ public class MyWorld extends World
             showText( "TIME OVER", 400, 200 );
             Greenfoot.stop();
         }
-        if(count == 300){
+        if(count == 100){
             count = 0;
             int Q = 1;
             int W = 7;
